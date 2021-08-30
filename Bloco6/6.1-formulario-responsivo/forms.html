@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <fieldset>
+    <h1>Informações Pessoais.</h1>
+    <form action="" method="GET">
+        <label for="nome">Digite seu Nome:
+        <input type="text" placeholder="Nome" id="nome" required name="texto" maxlength="40">
+        </label>
+        <br>
+        <br>
+        <label for="email">Digite seu E-mail:
+        <input type="email" placeholder="E-mail" id="email" required name="email" maxlength="50">
+        </label>
+        <br>
+        <br>
+        <label for="CPF">Digite seu CPF:
+        <input placeholder="CPF" id="CPF" required name="CPF" maxlength="11">
+        </label>
+        <br>
+        <br>
+        <label for="endereco">Digite seu Endereço:
+        <input type="text" placeholder="Endereço" id="endereco" required name="endereco" maxlength="200">
+        </label>
+        <br>
+        <br>
+        <label for="cidade">Digite sua Cidade:
+        <input type="text" placeholder="Cidade" id="cidade" required name="cidade" maxlength="28">
+        </label>
+        <br>
+        <br>
+        <label for="">Estado onde voçê mora:
+        <select name="estado" id="input-estado">
+            <option value="sp">São Paulo</option>
+            <option value="Pi">Piauí</option>
+            <option value="mg">Minas Gerais</option>
+        </select>
+        </label>
+     </fieldset>
+     <br>
+     <fieldset>
+       <form action="" method="GET">
+        <h1>Informações do ultimo emprego.</h1>
+        <p>Resumo do curriculo:</p>  
+        <textarea name="curriculo" id="curriculo" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <label for="Cargo">Cargo:
+        <input type="text" placeholder="Cargo" id="Cargo" required name="texto" maxlength="40">
+        </label>
+        <br>
+        <br>
+        <label for="Descrição do cargo">Descrição do cargo:
+        <input type="text" placeholder="Cargo" id="Descrição do cargo" required name="texto" maxlength="500">
+        <br>
+        <br>
+        <label for="Data de início">Descrição do cargo
+        <input type="date" id="Data de início" required name="date">
+        </label>
+        </form>
+     </fieldset>
+    </form>
+</body>
+</html>
