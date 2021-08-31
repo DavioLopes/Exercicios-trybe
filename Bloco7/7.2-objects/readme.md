@@ -8,4 +8,4 @@ Complete a função orderModifier() para que seu retorno seja similar a "Olá Lu
 
 Modifique o nome da pessoa compradora.
 
-Modifique o valor total da compra para R$ 50,00.
+Modifique o valor total da compra para R$ 50,00..
