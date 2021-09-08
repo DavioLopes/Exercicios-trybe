@@ -4,7 +4,7 @@ const newEmployees = (emploier) => {
   const employees = {
     id1: emploier('Pedro Guerra'), 
     id2: emploier('Luiza Drumond'), 
-    id3: emploier('Carla Paiva'),
+    id3: emploier('Carla Paiva '),
   }
   return employees;
 };
