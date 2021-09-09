@@ -11,7 +11,7 @@ const names = ['João', 'Irenee', 'Fernando', 'Maria'];
 const findNameWithFiveLetters = names.find((item) => item.length === 5);
 console.log(findNameWithFiveLetters);
 
-//3 - Utilize o find para encontrar a música com id igual a 31031685, caso ela exista:
+//3 - Utilize o find para encontrar a música com id igual a 31031685, caso ela exista
 
 const musicas = [
   { id: '31031685', title: 'Partita in C moll BWV 997' },
