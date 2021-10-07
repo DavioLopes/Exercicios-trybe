@@ -63,15 +63,15 @@ const books = [
 ];
 //1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 
-/* function formatedBookNames() {
+ function formatedBookNames() {
   const bookName = books.map((iten) => console.log(`${iten.name} - ${iten.genre} - ${iten.author.name}`) );
 }
-formatedBookNames(); */
+formatedBookNames(); 
 
 
 //2 - Construa um array de objetos a partir do array de livros. Cada objeto deve conter uma propriedade author , com o nome da pessoa autora do livro, e uma propriedade age com a idade dessa pessoa quando o livro foi lançado. O array deve ser ordenado por idade, ou seja, da pessoa mais jovem para a mais velha considerando suas idades quando o livro foi lançado.
 
-/* function nameAndAge() {
+ function nameAndAge() {
   const nameAndAge = books.map((iten) => (
     {
       age: iten.releaseYear - iten.author.birthYear,
@@ -79,15 +79,15 @@ formatedBookNames(); */
     }
   ))
     .sort((a, b) => a.age - b.age);
-  console.table(nameAndAge);
+  console.log(nameAndAge);
 }
-nameAndAge(); */
+nameAndAge(); 
 
 
 //3 - Crie um array com todos os objetos que possuem gênero ficção científica ou fantasia.
 
-/* function fantasyOrScienceFiction() {
+ function fantasyOrScienceFiction() {
   const fantasyOrScienceFiction = books.filter((iten) => (iten.genre === 'Ficção Científica' || iten.genre === 'Fantasia'));
-  console.table(fantasyOrScienceFiction);
+  console.log(fantasyOrScienceFiction);
 }
-fantasyOrScienceFiction(); */
+fantasyOrScienceFiction(); 
