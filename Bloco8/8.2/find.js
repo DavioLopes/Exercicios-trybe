@@ -22,6 +22,6 @@ function findMusic(id) {
   const music = musicas.find((item) => item.id === id);
   console.log(music.title);
 }
-console.log(findMusic('31031685'));
+findMusic('31031685');
 
 
